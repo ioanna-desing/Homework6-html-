@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: wght @ 100; 200; 300; 400; 500; 600; 700; 800; 900 & display = swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat" sans-serif;
+}
+.header-top
+{
+    height: 92px;
+    background-color: #f9f9f9;
+    padding: 0 101px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid #3298F2;
+}
+.header-nav
+{
+    display: flex;
+    column-gap: 30px;
+}
+.nav-item a
+{
+    font-size: 16px;
+    color:#292929;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;  
+}
+.nav-item a:hover
+{
+ color: #3298F2;
+}  
+.header-callback
+{
+    width: 305px;
+}
+.header-callback button
+{
+    width: 100%;
+    border: 2px solid #3298F2;
+    border-radius: 6px;
+    height: 60px;
+    font-weight: 600;
+    color: #3298F2;
+    background-color: transparent;
+}
+.header-main
+{
+    padding: 89px 100px 150px 245px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.header-content
+{
+    width: 640px;
+}
+.header-sup-title
+{
+    font-size:19px;
+    color: rgb(240, 165, 66);
+    line-height:23px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+.header-title
+{
+    font-weight: 900;
+    line-height:37px;
+    text-transform: uppercase;
+}
+.header-title span
+{
+    color:#3298F2;
+}
+.header-text
+{
+    font-weight: 500;
+    line-height: 26px;
+    color: #333333;
+}
+.header-text p:last-child
+{
+    font-weight: bold;
+    margin-top: 37px;
+}
+.header-content-button
+{
+   margin-top: 120px;
+}
+.header-content-button button
+{
+    width:382px;
+    height:60px;
+    background-color:rgb(240, 165, 66) ;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #292929;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+.header-content-button button::before
+{
+    content:'' ;
+    width: 50px;
+    height: 100%;
+    background-color:#ffffff;
+    display: block;
+    position: absolute;
+    transform:skewX(-20deg);
+    top: 0;
+    filter: blur(15px);
+    left: -200px;
+    animation:sss 3500ms ease-in-out infinite;
+}
+@keyframes sss{
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 150%;
+    }
+}
+.header-okten
+{
+    width: 760px;
+    font-size: 200px;
+    font-weight: 900;
+    text-transform: uppercase;
+    background:linear-gradient(90deg,#3298f2,rgb(240, 165, 66));
+    -webkit-background-clip:text;
+    color:transparent;
+    line-height: 150px;
+}
+.header-okten-school
+{
+    font-size: 168px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 200px;
+    -webkit-text-stroke-color:#3298F2 ;
+    -webkit-text-stroke-width: 2px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.header-programm
+{
+  font-size: 63px;
+  line-height: 75px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #292929 ;
+}
+.play-wrap, .play-button, .play
+{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-wrap
+{
+    height: 156px;
+    width:156px;
+    border: 1px solid rgb(240, 165, 66);
+    left: 50%;
+    margin-left:-78px;
+    bottom: 60px;
+    position: absolute;
+}
+.play-button
+{
+    height: 96px;
+    width: 96px;
+    border: 2px solid rgb(240, 165, 66);
+}
+.play
+{
+width: 82px;
+height: 82px;
+border: 3px solid rgb(240, 165, 66);
+background-color: rgb(154, 163, 172);
+}
+.play i
+{
+    font-size: 25px;
+    color: rgb(241, 229, 229);
+}
